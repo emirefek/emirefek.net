@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+hr {
+    margin: 0px;
+    height: 35px;
+    border-width: 0;
+}
+
+.main-header {
+    background-color: #681f6a;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.main-nav_items {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.main-nav_item {
+    display: block;
+}
+
+.main-nav_link {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.main-nav_link:hover {
+    color: rgb(188, 188, 188);
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+
+.top-container {
+    background-color: #a7e08e;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.middle-container {
+    background-color: rgb(255, 142, 142);
+    padding: 2% 2%;
+
+}
+
+.headerlogo {
+    width: 200px;
+    height: 200px;
+}
+
+.skill-row {
+    margin: 20px 0px 0px 20px;
+}
+
+.barch {
+    text-decoration: underline;
+}
+
+.mailbtn {
+    color: rgb(24, 24, 24);
+    font-weight: 700;
+}
+
+.footer-container {
+    height: 5vh;
+    background-color: rgb(51, 51, 121);
+
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_items {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.footer_item {
+    display: block;
+}
+
+.footer_link {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    color: rgb(188, 188, 188);
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.miniportfolio {
+    margin: 10px 20px;
+}
+
+.miniportfolio>img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.miniportfolio>h4 {
+    margin: 10px 0px;
+}
